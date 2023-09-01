@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(30,30,30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    color: white;
+    padding: 3rem;
+    font-size: 6rem;
+}
+button{
+    padding: 1.25rem;
+    width: 200px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 30px;
+    cursor: pointer;
+    font: 100 1.5rem sans-serif;
+    border-radius: 50px;
+}
+#btn1:hover{
+    background-color: rgb(50,50,50);
+    color: white;
+}
+#btn2:hover{
+    background-color: rgb(50,50,50);
+    color: white;
+}
+#btn3:hover{
+    background-color: rgb(50,50,50);
+    color: white;
+}
+#btn1{
+    background-color: rgb(57, 176, 57);
+}
+#btn2{
+    background-color: rgb(73, 22, 183);
+}
+#btn3{
+    background-color: crimson;
+}
